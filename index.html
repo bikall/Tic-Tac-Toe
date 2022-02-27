@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="playername">Bikal's Turn</div>
+
+    <div id="pco">
+      <div id="pntt">
+        <p id="pnt1">Player 1</p>
+        <input maxlength="10" type="text" id="p1" ></input>
+        <p id="pnt2">Player 2</p>
+        <input maxlength="10" type="text" id="p2"></input>
+      </div>
+      <button id="okb" onclick="okcli()" type="submit">OK</button>
+    </div>
+  <div id="container">
+    <table id="tbl" border="1">
+      <tr>
+        <td><button id="a1"></button></td>
+        <td><button id="a2"></button></td>
+        <td><button id="a3"></button></td>
+      </tr>
+      <tr>
+        <td><button id="b1"></button></td>
+        <td><button id="b2"></button></td>
+        <td><button id="b3"></button></td>
+      </tr>
+      <tr>
+        <td><button id="c1"></button></td>
+        <td><button id="c2"></button></td>
+        <td><button id="c3"></button></td>
+      </tr>
+    </table><br>
+  </div>
+  <div id="acc">
+    <input id="flip" value="FLIP"type="button"></input>
+        <input id="Restart" value="RESTART"type="button"></input>
+    </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
