@@ -24,25 +24,16 @@ flip.addEventListener('click', () => {
   if (pl1 == '') {
     pl1 = 'Player 1'
   }
-  flip.disabled = true;
   if (pl2 == '') {
     pl2 = 'Player 2'
   }
-  if (pl3 == '') {
-    pl3 = 'Player 1'
+  if (pl1 == '') {
+    pl1 = 'Player 1'
   }
-  if (pl4 == '') {
-    pl4 = 'Player 2'
-  }
+    [pl1,pl2]=[pl2,pl1]
   if (playername.innerText == pl2 + ' ' + 'Turn') {
     playername.innerText = pl1 + ' ' + 'Turn'
   }
-  if (playername.innerText == pl1 + ' ' + 'Turn')
-  {
-    playername.innerText = pl2 + ' ' + 'Turn'
-  }
-  pl1 = pl4
-  pl2 = pl3
 })
 for (items of bts) {
   items.addEventListener('click', function tttf(e) {
